@@ -1,0 +1,146 @@
+#title {
+    background-color: black ;
+    color: white;
+    padding-bottom: 15%;
+
+}
+body{
+    font-family: 'Share', cursive;
+}
+h1{
+    font-family: 'Share Tech Mono', monospace;
+    size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.catch-phrase{
+    color: white;
+    padding-bottom: 40px;
+}
+.navbar-brand{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Share Tech Mono', monospace;
+}
+.signup-btn{
+    margin-left: 0px;
+    margin: 0 10px 0 0;
+}
+#features{
+    padding: 50px 0;
+    background-color: #1A191F;
+    color: white;
+    text-align: center;
+    line-height: 2;
+    font-size: 1.2rem;
+    padding: 7% 15%;
+}
+h3{
+    font-family: 'Share Tech Mono', monospace;
+    color: rgb(236, 234, 234);
+}
+i{
+    padding-bottom: 10px;
+}
+i:hover{
+    padding-bottom: 10px;
+    color: #56B572;
+    
+}
+.title-img{
+    padding-top: 30px;
+    padding-left: 15%;
+    height: 600px;
+    text-align: center;
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #24232b;
+    color: white;
+}
+h2{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #24232b;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 10%;
+    margin: 20px 20px 50px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#ecosystem{
+    background-color: #383641;
+    text-align: center;
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+}
+.card{
+    background-color: #2d2b35;
+    padding-bottom: 50px;
+    margin: 15% 17%;
+}
+.card-img-top{
+    height: 200px;
+    width: 200px;
+    padding: 5% 5%;
+}
+#cta{
+    padding-top: 10px;
+    background-color: #50a168;
+    text-align: center;
+    line-height: 4;
+    color: white;
+}
+#footer{
+    background-color:#56B572;
+    text-align: center;
+    padding-bottom: 4px;
+    line-height: 4;
+    font-weight: bold;
+}
+.cta-head{
+    font-size: 2rem;
+    color: white;
+    font-weight: bolder;
+    padding: 7% 15%;
+    font-size: 2.5rem;
+}
+.btn-cta{
+    margin-bottom: 50px;
+}
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static ;
+        padding-left: 0%;
+        text-align: center;
+    }
+}
